@@ -1,0 +1,50 @@
+<templateSet group="Kotlin">
+  <template name="enum" value="enum class $NAME$(val value: Int, val label: String) {&#10;    ENUM1(1, &quot;Label1&quot;),&#10;    ENUM2(2, &quot;Label2&quot;),&#10;    ENUM3(3, &quot;Label3&quot;),&#10;    ;&#10;&#10;    companion object {&#10;&#10;        private val map = mutableMapOf&lt;Int, $NAME$&gt;()&#10;&#10;        init {&#10;            values().forEach { map[it.value] = it }&#10;        }&#10;&#10;        fun parse(value: Int): $NAME$? {&#10;            return map[value]&#10;        }&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="controller" value="import io.swagger.annotations.*&#10;import org.slf4j.LoggerFactory&#10;import org.springframework.web.bind.annotation.*&#10;&#10;@Api(tags=[&quot;$NAME$模块&quot;])&#10;@RestController&#10;@RequestMapping(&quot;/$PATH$&quot;)&#10;class $CLASS$Controller(val $CAMEL_CLASS$Service: $CLASS$Service) {&#10;&#10;    private val logger = LoggerFactory.getLogger(this.javaClass)&#10;&#10;    @GetMapping(&quot;/&quot;)&#10;    @ApiOperation(nickname = &quot;Search$CLASS$&quot;, value = &quot;列表$NAME$&quot;)&#10;    fun list(model: $CLASS$SearchRequestModel): BaseResponse {&#10;        logger.info(&quot;search $CAMEL_CLASS$ params: $model&quot;)&#10;        val result = $CAMEL_CLASS$Service.search(model)&#10;        return SearchResponse(result.content, result.pageable.pageNumber, result.pageable.pageSize, result.totalElements)&#10;    }&#10;&#10;    @GetMapping(&quot;{id}&quot;)&#10;    @ApiOperation(nickname = &quot;Get$CLASS$&quot;, value = &quot;$NAME$详情&quot;)&#10;    fun get(@PathVariable id: $TYPE$): BaseResponse {&#10;        logger.info(&quot;get $CAMEL_CLASS$ params: $id&quot;)&#10;        val opt = $CAMEL_CLASS$Service.findById(id)&#10;        if (opt.isPresent) {&#10;            return ItemResponse(opt.get())&#10;        }&#10;        return BaseResponse.NotFound&#10;    }&#10;&#10;    @PostMapping(&quot;/&quot;)&#10;    @ApiOperation(nickname = &quot;Create$CLASS$&quot;, value = &quot;创建$NAME$&quot;)&#10;    fun create(@RequestBody model: $CLASS$): BaseResponse {&#10;        logger.info(&quot;create $CAMEL_CLASS$ params: $model&quot;)&#10;        $CAMEL_CLASS$Service.save(model)&#10;        return BaseResponse.Ok&#10;    }&#10;&#10;    @PutMapping(&quot;{id}&quot;)&#10;    @ApiOperation(nickname = &quot;Update$CLASS$&quot;, value = &quot;修改$NAME$&quot;)&#10;    fun update(@PathVariable id: $TYPE$, @RequestBody model: $CLASS$UpdateRequestModel): BaseResponse {&#10;        logger.info(&quot;update $CAMEL_CLASS$ params: $id - $model&quot;)&#10;        val opt = $CAMEL_CLASS$Service.findById(id)&#10;        if (opt.isPresent) {&#10;            val item = opt.get().copy(/*TODO*/)&#10;            $CAMEL_CLASS$Service.save(item)&#10;            return BaseResponse.Ok&#10;        }&#10;        return BaseResponse.NotFound&#10;    }&#10;&#10;    @DeleteMapping(&quot;{id}&quot;)&#10;    @ApiOperation(nickname = &quot;Delete$CLASS$&quot;, value = &quot;删除$NAME$&quot;)&#10;    fun delete(@PathVariable id: $TYPE$): BaseResponse {&#10;        logger.info(&quot;delete $CAMEL_CLASS$ params: $id&quot;)&#10;        $CAMEL_CLASS$Service.delete(id)&#10;        return BaseResponse.Ok&#10;    }&#10;    &#10;}" description="Spring Controller" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CAMEL_CLASS" expression="decapitalize(CLASS)" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="&quot;Int&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="getmapping" value="@GetMapping(&quot;$PATH$&quot;)&#10;@ApiOperation(nickname = &quot;$METHOD$&quot;, value = &quot;$DESC$&quot;)&#10;fun $METHOD$(): $RETURN$ {&#10;    $TODO$&#10;    return $RETURN$() &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="postmapping" value="@PostMapping(&quot;$URL$&quot;)&#10;@ApiOperation(nickname = &quot;$METHOD$&quot;, value = &quot;$DESC$&quot;)&#10;fun $METHOD$(@RequestBody val model: $ModelClass$): $RETURN$ {&#10;    $TODO$&#10;    return $RETURN$() &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ModelClass" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="logger" value="private val logger = LoggerFactory.getLogger(this.javaClass)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="crudmapping" value="@GetMapping(&quot;/&quot;)&#10;@ApiOperation(nickname = &quot;Search$CLASS$&quot;, value = &quot;列表&quot;)&#10;fun list(model: $CLASS$SearchRequestModel): BaseResponse {&#10;&#10;    return SearchResponse(listOf(&quot;&quot;), 1, 20, 100)&#10;}&#10;&#10;@GetMapping(&quot;{id}&quot;)&#10;@ApiOperation(nickname = &quot;Get$CLASS$&quot;, value = &quot;详情&quot;)&#10;fun get(@PathVariable id: String): BaseResponse {&#10;&#10;    return SingletonResponse(id)&#10;}&#10;&#10;@PostMapping(&quot;/&quot;)&#10;@ApiOperation(nickname = &quot;Create$CLASS$&quot;, value = &quot;创建&quot;)&#10;fun create(@RequestBody $CLASS$: $CLASS$): BaseResponse {&#10;    return BaseResponse.Ok&#10;}&#10;&#10;@PutMapping(&quot;{id}&quot;)&#10;@ApiOperation(nickname = &quot;Update$CLASS$&quot;, value = &quot;修改&quot;)&#10;fun update(@PathVariable id: String, @RequestBody model: $CLASS$UpdateModel): BaseResponse {&#10;    return BaseResponse.Ok&#10;}&#10;&#10;@DeleteMapping(&quot;{id}&quot;)&#10;@ApiOperation(nickname = &quot;Delete&quot;, value = &quot;删除&quot;)&#10;fun delete(@PathVariable id: String): BaseResponse {&#10;    return BaseResponse.Ok&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
