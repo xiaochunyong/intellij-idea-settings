@@ -110,7 +110,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>160</Count>
+          <Count>162</Count>
         </Item>
       </Statistic>
       <Statistic Action="Edit...">
@@ -271,6 +271,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'codegen [buildPlugin]'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'codegen [runIde]'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'codegen [runIde]'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'com.aihuishou.creative.inspection.server.utils.OSSClientX'">
@@ -567,6 +575,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'Springbootlession13Application'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'codegen [runIde]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'codegen [runIde]'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'com.aihuishou.creative.inspection.server.utils.Unzip'">
