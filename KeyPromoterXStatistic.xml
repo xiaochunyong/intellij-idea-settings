@@ -46,7 +46,7 @@
           <IdeaActionID>XDebugger.CopyValue</IdeaActionID>
           <ShortCut>'⌘C'</ShortCut>
           <Description>Copy Value</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug">
@@ -118,7 +118,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'⌃D'</ShortCut>
           <Description>Debug 'kastree.ast.psi.ParserKt'</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'me.ely.RemoveOldJar'">
@@ -158,7 +158,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>356</Count>
+          <Count>357</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -542,7 +542,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'codegen [buildPlugin]'</Description>
-          <Count>65</Count>
+          <Count>67</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'com.aihuishou.creati...'">
