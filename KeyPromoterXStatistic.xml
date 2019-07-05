@@ -217,6 +217,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Go to Listener">
+        <Item>
+          <IdeaActionID>GuiDesigner.GoToListener</IdeaActionID>
+          <ShortCut>'⌥⌘B'</ShortCut>
+          <Description>Go to Listener</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Hide All Windows">
         <Item>
           <IdeaActionID>HideAllWindows</IdeaActionID>
@@ -550,7 +558,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'codegen [buildPlugin]'</Description>
-          <Count>67</Count>
+          <Count>68</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'com.aihuishou.creati...'">
