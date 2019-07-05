@@ -1,0 +1,38 @@
+<application>
+  <component name="CodeGenSettings">
+    <option name="codeTemplates">
+      <map>
+        <entry key="Converter.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="FieldComment.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="JPAService.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="Model.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="MongoService.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="specs2-matcher.vm">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
