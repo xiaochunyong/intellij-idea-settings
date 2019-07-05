@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>301</Count>
+          <Count>302</Count>
         </Item>
       </Statistic>
       <Statistic Action="Edit...">
@@ -526,7 +526,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'⌃R'</ShortCut>
           <Description>Run 'codegen [buildPlugin]'</Description>
-          <Count>38</Count>
+          <Count>39</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'com.aihuishou.creati...'">
