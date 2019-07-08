@@ -1,5 +1,34 @@
 <application>
   <component name="CodeGenSettings">
+    <option name="codeTemplates">
+      <map>
+        <entry key="Controller">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="JPARepository">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="JPAService">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="MongoRepository">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+        <entry key="MongoService">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="email" value="ely.xiao@aihuishou.com" />
   </component>
 </application>
