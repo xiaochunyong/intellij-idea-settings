@@ -166,7 +166,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>449</Count>
+          <Count>450</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -342,7 +342,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'InspectionServerApplication'</Description>
-          <Count>102</Count>
+          <Count>105</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Rerun Failed Tests'">
@@ -990,7 +990,7 @@
           <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
           <ShortCut>'⌥F12'</ShortCut>
           <Description>Terminal</Description>
-          <Count>65</Count>
+          <Count>66</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
