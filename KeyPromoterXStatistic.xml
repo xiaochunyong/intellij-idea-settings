@@ -78,7 +78,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'⌃D'</ShortCut>
           <Description>Debug 'InspectionServerApplication'</Description>
-          <Count>21</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'MachineControlApplication'">
@@ -846,7 +846,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'InspectionServerApplication'</Description>
-          <Count>80</Count>
+          <Count>82</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'OrderApplication'">
