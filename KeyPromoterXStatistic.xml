@@ -553,6 +553,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'ClickRobot.main()'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'ClickRobot.main()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'CorpusTest.testParseAndConvert (1)'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -905,6 +913,14 @@
           <Count>14</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ClickRobot'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'ClickRobot'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'CorpusTest'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1094,7 +1110,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>86</Count>
+          <Count>87</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
