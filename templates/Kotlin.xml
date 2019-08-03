@@ -56,4 +56,10 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="test" value="@Test&#10;fun test$NAME$() {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
