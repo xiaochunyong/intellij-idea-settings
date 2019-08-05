@@ -1,5 +1,6 @@
 <application>
   <component name="KodeGenSettings">
+    <option name="basePackage" value="com.aihuishou.creative.itm" />
     <option name="codeTemplates">
       <map>
         <entry key="Controller">
