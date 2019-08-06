@@ -8,6 +8,11 @@
             <CodeTemplate />
           </value>
         </entry>
+        <entry key="CreateRequestModel">
+          <value>
+            <CodeTemplate />
+          </value>
+        </entry>
         <entry key="JPARepository">
           <value>
             <CodeTemplate />
