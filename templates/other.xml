@@ -1,0 +1,32 @@
+<templateSet group="other">
+  <template name="aihuishou" value="## 切换指定环境&#10;运行Application时, 添加命令行参数 `-DENV=uat` 或 `-DENV=pro`&#10;&#10;## 访问地址&#10;http://$CONTEXT_PATH$.java-service.svc.cluster.local:8080/$CONTEXT_PATH$/actuator/health `集群访问地址`&#10;&#10;http://47.96.53.33:8080/$CONTEXT_PATH$/actuator/health `外网访问地址(办公室)`&#10;&#10;## [Swagger 文档](http://47.96.53.33:8080/$CONTEXT_PATH$/swagger-ui.html)" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT_PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="MXML" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
