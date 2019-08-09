@@ -9,6 +9,9 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="Gsonformat">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="SendEOF" />
   <action id="openAssertEqualsDiff" />
 </keymap>
