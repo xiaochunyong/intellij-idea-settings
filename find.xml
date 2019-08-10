@@ -15,5 +15,6 @@
     <mask>*.mxml</mask>
     <mask>*.xml</mask>
     <mask>*.yaml</mask>
+    <mask>*.class</mask>
   </component>
 </application>
