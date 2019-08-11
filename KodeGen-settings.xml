@@ -1,0 +1,5 @@
+<application>
+  <component name="KodeGenSettings">
+    <option name="basePackage" value="com.aihuishou.creative.itm" />
+  </component>
+</application>
