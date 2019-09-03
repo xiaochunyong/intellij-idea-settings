@@ -2,4 +2,8 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern icon="important" pattern="\b(ely-comment|ElySay)\b.*" />
+  </component>
 </application>
