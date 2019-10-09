@@ -1,5 +1,5 @@
 <application>
   <component name="KodeGenSettings">
-    <option name="basePackage" value="com.aihuishou.creative.itm" />
+    <option name="basePackage" value="n.com.admaster.analyzer" />
   </component>
 </application>
