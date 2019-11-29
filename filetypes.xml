@@ -1,8 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="gitignore" type="PLAIN_TEXT" />
       <mapping ext="com" type="PLAIN_TEXT" />
