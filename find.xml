@@ -11,8 +11,10 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.xml</mask>
     <mask>*.yaml</mask>
     <mask>*.class</mask>
+    <mask>*.http</mask>
+    <mask>*.kt</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
