@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="localWholeWordsOnly" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
@@ -16,7 +14,9 @@
     <mask>*.class</mask>
     <mask>*.http</mask>
     <mask>*.kt</mask>
-    <mask>*.xml</mask>
     <mask>*.java</mask>
+    <mask>*.yml</mask>
+    <mask>*.groovy</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
