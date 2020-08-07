@@ -1,5 +1,5 @@
 <templateSet group="Java">
-  <template name="logger" value="private static Logger logger = LoggerFactory.getLogger($className$.class);" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="logger" value="private static Logger logger = LoggerFactory.getLogger($className$.class);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
