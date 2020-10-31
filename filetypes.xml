@@ -3,8 +3,13 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="all" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="group1" type="PLAIN_TEXT" />
       <mapping pattern="gitignore" type="PLAIN_TEXT" />
       <mapping ext="graphqls" type="PLAIN_TEXT" />
+      <mapping ext="212" type="PLAIN_TEXT" />
+      <mapping ext="yml     " type="YAML" />
     </extensionMap>
   </component>
 </application>
