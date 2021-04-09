@@ -1,0 +1,5 @@
+<application>
+  <component name="KubernetesApiSettings">
+    <option name="kubeconfigPath" value="$USER_HOME$/.kube/config" />
+  </component>
+</application>
