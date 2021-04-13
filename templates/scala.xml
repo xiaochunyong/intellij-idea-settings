@@ -1,0 +1,7 @@
+<templateSet group="scala">
+  <template name="sout" value="println($END$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+</templateSet>
