@@ -4,6 +4,7 @@
       <mapping pattern="workers" type="AUTO_DETECTED" />
       <mapping pattern="_SUCCESS" type="AUTO_DETECTED" />
       <mapping pattern="works" type="AUTO_DETECTED" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -14,9 +15,9 @@
       <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="proto" type="PLAIN_TEXT" />
       <mapping ext="212" type="PLAIN_TEXT" />
-      <mapping ext="graphqls" type="PLAIN_TEXT" />
       <mapping ext="yml     " type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="graphqls" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
