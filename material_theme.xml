@@ -2,8 +2,8 @@
   <component name="MaterialThemeConfig">
     <option name="premium" value="true" />
     <option name="indicatorStyle" value="None" />
-    <option name="accentColor" value="84ffff" />
-    <option name="selectedTheme" value="DEEPOCEAN" />
+    <option name="accentColor" value="416a9b" />
+    <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="7a13e5d4:17a67d9f673:-8000" />
     <option name="version" value="6.7.0" />
   </component>
