@@ -8,5 +8,6 @@
     <mask>*.yaml</mask>
     <mask>*.xml</mask>
     <mask>*.yml</mask>
+    <mask>*.sh</mask>
   </component>
 </application>
