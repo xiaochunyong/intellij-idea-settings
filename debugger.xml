@@ -628,7 +628,7 @@
       </debugger>
       <debugger id="kotlin_debugger">
         <configuration>
-          <option name="filterForStdlibAlreadyAdded" value="true" />
+          <option name="debugDisableCoroutineAgent" value="true" />
         </configuration>
       </debugger>
     </debuggers>
