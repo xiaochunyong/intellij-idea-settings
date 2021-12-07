@@ -1,6 +1,5 @@
 <application>
   <component name="MarkdownApplicationSettings">
     <MarkdownCssSettings StylesheetUri="https://gist.github.com/MikeMitterer/ff00ad4bb86ccaa4617e963eb0c08cf3/raw/custom-darcula.css" TextEnabled="true" StylesheetText="body {&#10;    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;&#10;    font-size: 85%;&#10;}" />
-    <MarkdownPreviewSettings DefaultSplitLayout="Show editor only" />
   </component>
 </application>
