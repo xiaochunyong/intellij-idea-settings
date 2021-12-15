@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="1.15.249.2" id="05b78419-b174-44ac-bc23-1f8935e074db" keyPath="$USER_HOME$/.ssh/id_rsa_ely" port="22" customName="lighthouse@1.15.249.2" nameFormat="CUSTOM" username="lighthouse" useOpenSSHConfig="true">
+        <option name="customName" value="lighthouse@1.15.249.2" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
