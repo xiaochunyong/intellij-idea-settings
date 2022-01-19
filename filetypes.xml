@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="_SUCCESS" type="AUTO_DETECTED" />
+      <mapping pattern="_meta_doc_stats" type="AUTO_DETECTED" />
       <mapping pattern="works" type="AUTO_DETECTED" />
       <mapping pattern="workers" type="AUTO_DETECTED" />
       <mapping pattern="segments_1" type="AUTO_DETECTED" />
