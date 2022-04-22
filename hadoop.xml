@@ -1,5 +1,16 @@
 <application>
   <component name="HadoopSettings">
+    <option name="configs">
+      <map>
+        <entry key="Hadoop connection@HadoopMonitoringConnections@-2364000869286959559">
+          <value>
+            <HadoopConfig>
+              <option name="selectedPage" value="Nodes" />
+            </HadoopConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="dataUpdateIntervalMillis" value="-1" />
     <option name="selectedConnectionId" value="Hadoop connection@HadoopMonitoringConnections@-2364000869286959559" />
   </component>
