@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="Maven.NavigatorDependencyAnalyzer">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="Scala.DecompileToJava">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
