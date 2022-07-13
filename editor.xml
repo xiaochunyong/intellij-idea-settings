@@ -13,6 +13,7 @@
         <option value="references" />
       </set>
     </option>
+    <option name="enabled" value="false" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
