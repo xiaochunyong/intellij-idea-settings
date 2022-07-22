@@ -1,6 +1,6 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="TestDocker" type="docker">
+    <remote-server name="CompanyDocker" type="docker">
       <configuration>
         <option name="apiUrl" value="tcp://10.11.110.221:8375" />
       </configuration>
