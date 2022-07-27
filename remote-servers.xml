@@ -1,8 +1,9 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="CompanyDocker" type="docker">
+    <remote-server name="MininglampDocker" type="docker">
       <configuration>
-        <option name="apiUrl" value="tcp://10.11.110.221:8375" />
+        <option name="apiUrl" value="tcp://10.11.110.217:8375 DOCKER_TLS_VERIFY=1" />
+        <option name="customConfiguratorId" value="DockerTcpConnectionConfigurator" />
       </configuration>
     </remote-server>
     <remote-server name="Docker" type="docker">
