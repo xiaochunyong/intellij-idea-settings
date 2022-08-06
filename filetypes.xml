@@ -23,7 +23,6 @@
       <mapping ext="212" type="PLAIN_TEXT" />
       <mapping pattern="pulsar" type="Shell Script" />
       <mapping ext="yml     " type="YAML" />
-      <mapping ext="proto" type="protobuf" />
       <removed_mapping ext="adoc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="graphqlconfig" approved="true" type="JSON" />
