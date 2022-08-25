@@ -14,13 +14,13 @@
       <mapping pattern="group1" type="PLAIN_TEXT" />
       <mapping pattern="gitignore" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="sock" type="PLAIN_TEXT" />
       <mapping ext="jks" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
-      <mapping ext="212" type="PLAIN_TEXT" />
-      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="212" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="pulsar" type="Shell Script" />
       <mapping ext="yml     " type="YAML" />
